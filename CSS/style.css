@@ -1,0 +1,141 @@
+body{
+	color: white;
+	font-size: 18px;
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../Images/fondo1.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#social{
+	margin: 20px 0;
+ }
+
+#barrapost{
+	margin: 15px 0;
+}
+
+#info{
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background:url(../Images/fondo2.jpg) no-repeat center;
+	background-size: auto 1000px;
+	margin-bottom: 15px;
+}
+
+
+#insta{
+	border: 1.5px black solid;
+	margin-left: 15px;
+	padding:3px 10px;
+	border-radius: 10px;
+	font-size: 35px;
+	color: white;
+	background: linear-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    transition: all 1s;
+}
+
+#face{
+	border: 1.5px black solid;
+	background-color:#3b5998;
+	color: white;
+	border-radius: 10px;
+	padding:3px 15px;
+	font-size: 35px;
+	webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+#postin{
+	color: white;
+	margin-bottom: 15px;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+#postin a{
+	color: yellow;
+	text-decoration: none;
+}
+
+#postpubli{
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px;
+}
+
+#titulo , #end{
+	margin:auto;
+	text-align: center;
+	width: 90%
+
+}
+
+#titulo a{
+	color: white;
+	text-decoration: none;
+}
+
+#boton{
+	color:black;
+	border: none;
+	font-size: 20px;
+	margin:10px 15px 5px;
+	padding: 10px 30px;
+	background: #e6b800;
+}
+
+#imagenes {
+	margin: auto;
+	width: 99%;
+	text-align: center;
+	color: #696969;
+
+}
+#imagenes img {
+	margin-bottom: 7px;
+	width: 100%;
+}
+
+hr{
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 15px auto;
+    height: 0;
+    width: 98%;
+ 	max-height: 0;   
+ 	font-size: 1px;	   
+ 	line-height: 0;
+	clear: both;
+  	border: none;
+    border-top: 1px solid #aaaaaa;
+    border-bottom: 1px solid #ffffff;
+}	
+
+@media (min-width: 1200px){
+	body{
+		font-size: 20px;
+	}
+
+	#info{
+		margin-bottom: 0;
+	}
+
+	#mitad img{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+	}
+
+	#social{
+		margin-top: 140px;
+	}
+
+	#barrapost{
+		margin: 400px 0;
+	}
+
+	#imagenes img {
+		margin-bottom: 7px;
+		height:400px;
+	}
+}
